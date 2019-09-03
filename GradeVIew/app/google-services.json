@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "532085869293",
+    "firebase_url": "https://gradeview-9c13e.firebaseio.com",
+    "project_id": "gradeview-9c13e",
+    "storage_bucket": "gradeview-9c13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532085869293:android:40b5cd12e6467d18",
+        "android_client_info": {
+          "package_name": "com.arkham.gradeview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532085869293-qsa509t59n7ba28m3nikm2tbjusi2o71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkham.gradeview",
+            "certificate_hash": "27559d187e8547b5fbd297c971218657165a0225"
+          }
+        },
+        {
+          "client_id": "532085869293-5ahpe3ql3ntbg4h36tmvgldi8h08f6el.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKG_dC-HQQ041i-qds0NB6BFzm0LBWDIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532085869293-5ahpe3ql3ntbg4h36tmvgldi8h08f6el.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

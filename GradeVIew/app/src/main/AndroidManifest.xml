@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.arkham.gradeview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".chat.MessageActivity"></activity>
+        <activity android:name=".chat.StartChatActivity" />
+        <activity android:name=".chat.ResetPasswordChatActivity" />
+        <activity android:name=".chat.LoginChatActivity" />
+        <activity android:name=".chat.RegisterChatActivity" />
+        <activity
+            android:name=".chat.ChatAppActivity"
+            android:label="@string/title_activity_chat_app"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gradeview.GradeViewActivity"
+            android:label="@string/title_activity_grade_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".attain.ScannerActivity" />
+        <activity
+            android:name=".attain.AttaindanceActivity"
+            android:label="@string/title_activity_attaindance"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
